@@ -1,6 +1,7 @@
 # Paper documents
 paper.md
 paper.docx
+paper_images.docx
 convert_to_docx.py
 
 # Qlib binary data store (rebuilt by 01_build_qlib_data.py)
