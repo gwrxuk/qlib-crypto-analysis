@@ -1,0 +1,22 @@
+# Paper documents
+paper.md
+paper.docx
+convert_to_docx.py
+
+# Qlib binary data store (rebuilt by 01_build_qlib_data.py)
+qlib_data/
+
+# MLflow experiment tracking
+mlruns/
+
+# Accidental working-directory artifact from qlib
+home/
+
+# Large generated cache (rebuilt by 02_qlib_pipeline.py)
+qlib_expressions.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/

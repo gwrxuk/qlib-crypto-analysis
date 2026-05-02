@@ -1,0 +1,157 @@
+{
+  "period": "2021-01-04 to 2025-04-27",
+  "core_assets": [
+    "BTCUSD",
+    "ETHUSD",
+    "SOLUSD",
+    "BNBUSD",
+    "AVAXUSD"
+  ],
+  "all_assets": [
+    "BTCUSD",
+    "ETHUSD",
+    "SOLUSD",
+    "BNBUSD",
+    "AVAXUSD",
+    "ADAUSD",
+    "LINKUSD",
+    "DOTUSD",
+    "MATICUSD",
+    "UNIUSD",
+    "ATOMUSD",
+    "LTCUSD",
+    "XRPUSD",
+    "DOGEUSD",
+    "NEARUSD"
+  ],
+  "trading_days": 1575,
+  "ann_volatility_pct": {
+    "BTCUSD": 55.41,
+    "ETHUSD": 94.24,
+    "SOLUSD": 93.6,
+    "BNBUSD": 39.9,
+    "AVAXUSD": 97.35
+  },
+  "sharpe_365d": {
+    "BTCUSD": 0.667,
+    "ETHUSD": -0.909,
+    "SOLUSD": -0.002,
+    "BNBUSD": -0.07,
+    "AVAXUSD": -0.538
+  },
+  "max_drawdown": {
+    "BTCUSD": -0.7663000226020813,
+    "ETHUSD": -0.7935000061988831,
+    "SOLUSD": -0.9627000093460083,
+    "BNBUSD": -0.7084000110626221,
+    "AVAXUSD": -0.9347000122070312
+  },
+  "calmar_ratio": {
+    "BTCUSD": 0.3700000047683716,
+    "ETHUSD": 0.17000000178813934,
+    "SOLUSD": 1.6440000534057617,
+    "BNBUSD": 1.2239999771118164,
+    "AVAXUSD": 0.5550000071525574
+  },
+  "var_5pct": {
+    "BTCUSD": -0.0502,
+    "ETHUSD": -0.0635,
+    "SOLUSD": -0.0823,
+    "BNBUSD": -0.0594,
+    "AVAXUSD": -0.0912
+  },
+  "cvar_5pct": {
+    "BTCUSD": -0.07289999723434448,
+    "ETHUSD": -0.09489999711513519,
+    "SOLUSD": -0.12280000001192093,
+    "BNBUSD": -0.09210000187158585,
+    "AVAXUSD": -0.12849999964237213
+  },
+  "correlation": {
+    "BTCUSD": {
+      "BTCUSD": 1.0,
+      "ETHUSD": 0.821,
+      "SOLUSD": 0.595,
+      "BNBUSD": 0.631,
+      "AVAXUSD": 0.597
+    },
+    "ETHUSD": {
+      "BTCUSD": 0.821,
+      "ETHUSD": 1.0,
+      "SOLUSD": 0.631,
+      "BNBUSD": 0.639,
+      "AVAXUSD": 0.621
+    },
+    "SOLUSD": {
+      "BTCUSD": 0.595,
+      "ETHUSD": 0.631,
+      "SOLUSD": 1.0,
+      "BNBUSD": 0.544,
+      "AVAXUSD": 0.59
+    },
+    "BNBUSD": {
+      "BTCUSD": 0.631,
+      "ETHUSD": 0.639,
+      "SOLUSD": 0.544,
+      "BNBUSD": 1.0,
+      "AVAXUSD": 0.544
+    },
+    "AVAXUSD": {
+      "BTCUSD": 0.597,
+      "ETHUSD": 0.621,
+      "SOLUSD": 0.59,
+      "BNBUSD": 0.544,
+      "AVAXUSD": 1.0
+    }
+  },
+  "var_model_lag": 10,
+  "var_model_aic": -33.96588396675985,
+  "granger_top5": {
+    "AVAXUSD\u2192BNBUSD": 6.3535135249467e-09,
+    "ETHUSD\u2192BNBUSD": 7.959309396541287e-05,
+    "SOLUSD\u2192AVAXUSD": 0.00010079046206988157,
+    "BNBUSD\u2192SOLUSD": 0.00020897752122273698,
+    "SOLUSD\u2192BNBUSD": 0.0007041313874333184
+  },
+  "regime_stats": {
+    "mean": {
+      "high": 0.0005799999926239252,
+      "low": 0.0021699999924749136,
+      "medium": -0.0007099999929778278,
+      "unknown": 0.0007900000200606883
+    },
+    "std": {
+      "high": 0.04072,
+      "low": 0.02014,
+      "medium": 0.03006,
+      "unknown": 0.05517
+    },
+    "count": {
+      "high": 510,
+      "low": 510,
+      "medium": 526,
+      "unknown": 29
+    },
+    "ann_return": {
+      "high": 0.21106000244617462,
+      "low": 0.792639970779419,
+      "medium": -0.259799987077713,
+      "unknown": 0.2866399884223938
+    },
+    "ann_vol": {
+      "high": 0.77795,
+      "low": 0.38482,
+      "medium": 0.5743,
+      "unknown": 1.05409
+    },
+    "sharpe": {
+      "high": 0.2713,
+      "low": 2.05974,
+      "medium": -0.45238,
+      "unknown": 0.27193
+    }
+  },
+  "ew_cagr_pct": 88.94,
+  "ew_sharpe": 1.206,
+  "ew_maxdd_pct": -82.15
+}

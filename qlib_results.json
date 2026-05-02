@@ -1,0 +1,45 @@
+{
+  "qlib_version": "0.9.7",
+  "calendar_days": 1580,
+  "instruments": [
+    "BTCUSD",
+    "ETHUSD",
+    "SOLUSD",
+    "BNBUSD",
+    "AVAXUSD",
+    "ADAUSD",
+    "LINKUSD",
+    "DOTUSD",
+    "MATICUSD",
+    "UNIUSD",
+    "ATOMUSD",
+    "LTCUSD",
+    "XRPUSD",
+    "DOGEUSD",
+    "NEARUSD"
+  ],
+  "alpha158_feature_count": 158,
+  "train_samples": 13620,
+  "valid_samples": 4125,
+  "test_samples": 5880,
+  "label_mean_train": 1.1604256629943848,
+  "label_std_train": 134.869140625,
+  "top5_alpha158_ic": {
+    "MIN10": 0.07037,
+    "MIN5": 0.06484,
+    "RESI20": -0.05521,
+    "QTLD5": 0.05117,
+    "BETA5": -0.05107
+  },
+  "model_ic_mean": -0.05159351219037294,
+  "model_ic_std": 0.2624684476610733,
+  "model_icir": -0.1965703407405216,
+  "model_ic_pct_positive": 0.01020408163265306,
+  "top5_feature_importance": {
+    "Column_101": 1,
+    "Column_0": 0,
+    "Column_108": 0,
+    "Column_102": 0,
+    "Column_103": 0
+  }
+}

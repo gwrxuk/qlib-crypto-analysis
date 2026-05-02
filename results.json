@@ -1,0 +1,167 @@
+{
+  "period": "2021-01-01 to 2025-04-30",
+  "assets": [
+    "BTC-USD",
+    "ETH-USD",
+    "SOL-USD",
+    "BNB-USD",
+    "AVAX-USD"
+  ],
+  "ann_volatility_latest": {
+    "AVAX-USD": 79.13,
+    "BNB-USD": 32.37,
+    "BTC-USD": 45.59,
+    "ETH-USD": 77.55,
+    "SOL-USD": 76.87
+  },
+  "rolling_sharpe_latest": {
+    "AVAX-USD": -0.109,
+    "BNB-USD": 0.01,
+    "BTC-USD": 0.999,
+    "ETH-USD": -0.675,
+    "SOL-USD": -0.037
+  },
+  "max_drawdown": {
+    "AVAX-USD": -0.9347,
+    "BNB-USD": -0.7084,
+    "BTC-USD": -0.7663,
+    "ETH-USD": -0.7935,
+    "SOL-USD": -0.9627
+  },
+  "calmar_ratio": {
+    "AVAX-USD": 0.542,
+    "BNB-USD": 1.264,
+    "BTC-USD": 0.404,
+    "ETH-USD": 0.292,
+    "SOL-USD": 1.819
+  },
+  "var_5pct": {
+    "AVAX-USD": -0.0911,
+    "BNB-USD": -0.0593,
+    "BTC-USD": -0.0502,
+    "ETH-USD": -0.0633,
+    "SOL-USD": -0.0821
+  },
+  "cvar_5pct": {
+    "AVAX-USD": -0.1285,
+    "BNB-USD": -0.0921,
+    "BTC-USD": -0.0729,
+    "ETH-USD": -0.0949,
+    "SOL-USD": -0.1228
+  },
+  "correlation_matrix": {
+    "AVAX-USD": {
+      "AVAX-USD": 1.0,
+      "BNB-USD": 0.543,
+      "BTC-USD": 0.593,
+      "ETH-USD": 0.612,
+      "SOL-USD": 0.588
+    },
+    "BNB-USD": {
+      "AVAX-USD": 0.543,
+      "BNB-USD": 1.0,
+      "BTC-USD": 0.629,
+      "ETH-USD": 0.637,
+      "SOL-USD": 0.545
+    },
+    "BTC-USD": {
+      "AVAX-USD": 0.593,
+      "BNB-USD": 0.629,
+      "BTC-USD": 1.0,
+      "ETH-USD": 0.813,
+      "SOL-USD": 0.592
+    },
+    "ETH-USD": {
+      "AVAX-USD": 0.612,
+      "BNB-USD": 0.637,
+      "BTC-USD": 0.813,
+      "ETH-USD": 1.0,
+      "SOL-USD": 0.633
+    },
+    "SOL-USD": {
+      "AVAX-USD": 0.588,
+      "BNB-USD": 0.545,
+      "BTC-USD": 0.592,
+      "ETH-USD": 0.633,
+      "SOL-USD": 1.0
+    }
+  },
+  "regime_distribution": {
+    "medium": 526,
+    "high": 512,
+    "low": 512,
+    "unknown": 29
+  },
+  "roll_spread": {
+    "AVAX-USD": 0.0,
+    "BNB-USD": 0.020184,
+    "BTC-USD": 0.013098,
+    "ETH-USD": 0.019183,
+    "SOL-USD": 0.019473
+  },
+  "ew_portfolio_cagr": 93.85,
+  "momentum_strategy_cagr": 58.28,
+  "momentum_sharpe": 0.86,
+  "top_ic_factors": [
+    {
+      "asset": "SOL-USD",
+      "factor": "turnover",
+      "horizon": "20d",
+      "IC": -0.2797824740827541
+    },
+    {
+      "asset": "SOL-USD",
+      "factor": "amihud",
+      "horizon": "20d",
+      "IC": 0.2783260007003987
+    },
+    {
+      "asset": "ETH-USD",
+      "factor": "amihud",
+      "horizon": "20d",
+      "IC": 0.27751732716383143
+    },
+    {
+      "asset": "ETH-USD",
+      "factor": "turnover",
+      "horizon": "20d",
+      "IC": -0.2754523886968583
+    },
+    {
+      "asset": "AVAX-USD",
+      "factor": "amihud",
+      "horizon": "20d",
+      "IC": 0.2249083566683211
+    },
+    {
+      "asset": "AVAX-USD",
+      "factor": "turnover",
+      "horizon": "20d",
+      "IC": -0.22171843513637335
+    },
+    {
+      "asset": "SOL-USD",
+      "factor": "rsi14",
+      "horizon": "20d",
+      "IC": 0.20015551764048095
+    },
+    {
+      "asset": "SOL-USD",
+      "factor": "mom20",
+      "horizon": "20d",
+      "IC": 0.18288159060726428
+    },
+    {
+      "asset": "BNB-USD",
+      "factor": "amihud",
+      "horizon": "20d",
+      "IC": 0.17441281807551146
+    },
+    {
+      "asset": "SOL-USD",
+      "factor": "macd",
+      "horizon": "20d",
+      "IC": 0.16922459998557132
+    }
+  ]
+}
