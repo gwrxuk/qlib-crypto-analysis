@@ -1,8 +1,14 @@
-# Paper documents
+# Paper documents and manuscript artifacts
 paper.md
 paper.docx
 paper_images.docx
 convert_to_docx.py
+convert_to_images.py
+
+# Generated figures / images
+*.png
+*.jpg
+*.jpeg
 
 # Qlib binary data store (rebuilt by 01_build_qlib_data.py)
 qlib_data/
